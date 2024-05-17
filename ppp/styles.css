@@ -1,0 +1,354 @@
+.mainbody {
+    background-image: url('/images/v1736_4779.png'); 
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+}
+.bunkabody {
+    background-image: url('/bunkaimages/back.png'); 
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+}
+.shizenbody {
+    background-image: url('/shizenimages/back.png'); 
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+}
+.omotenashibody {
+    background-image: url('/omotenashiimages/back.png'); 
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+}
+.bishokubody {
+    background-image: url('/bishokuimages/back.png'); 
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+}
+.button-main {
+    width: 135px;
+    height: 40px;
+    background-color: white;
+    color: #532762;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-option {
+    width: 132px;
+    height: 40px;
+    background-color: white;
+    color: #532762;
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 32px;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upper-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    size: auto;
+    align-items: center;
+}
+.big-title {
+    color: white;
+    font-family: "Yu Gothic";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%; 
+    letter-spacing: 1.44px;
+    display: flex;
+    width: 900px;
+    height: auto; 
+    margin-top: 240px;
+}
+.button-link {
+    text-decoration: none; 
+}
+.top-elements {
+    margin-top: 40px;
+    margin-left: 8.54%;
+    margin-right: 8.54%;
+}
+.footer-background {
+    background-color: #532762;
+    height: 146px;
+    padding-left: 8.54%;
+    padding-right: 8.54%;
+}
+.button-option-footer {
+    width: 100px;
+    height: 32px;
+    background-color: white;
+    color: #532762;
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+.footlinks {
+    display: flex;;
+}
+
+.links {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; 
+    letter-spacing: 0.32px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.copyright-text {
+    color: rgba(255, 255, 255, 0.50);
+text-align: right;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+letter-spacing: -0.15px;
+justify-content: right;
+}
+.down {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 36px;
+}
+.test {
+    height: 2000px;
+    weight: 1440px;
+    background-color: aquamarine;
+    margin-top: 280px;
+}
+.subtitle1 {
+    color: #532762;
+    font-family: "Yu Gothic";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%; /* 86.4px */
+    letter-spacing: 1.28px;
+    margin: 0px;
+}
+.subtitle2 {
+    color: #565656;
+    font-family: "Yu Gothic";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 13.5px */
+    letter-spacing: 0.2px;
+    margin-left: 30px;
+}
+.subtitle3 {
+    color: #202020;
+    font-family: "Yu Gothic";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%; /* 16.2px */
+    letter-spacing: 0.24px;
+    margin-left: 30px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.runningtext {
+    color: white;
+    text-shadow: 1px 1px 1px #532762;
+    stroke-width: 10px;
+    font-family: 'Inter';
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    letter-spacing: 1.92px;
+}
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+.marquee p {
+    white-space: nowrap;
+    position: absolute;
+    animation: marquee 10s linear infinite;
+    transform: translateX(100%);
+    right: 0;
+}
+.contmrq {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -110px;
+}
+.groupm {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 32px;
+}
+.textup {
+    color: #532762;
+    font-family: "Yu Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%; 
+    letter-spacing: 0.48px;
+}
+.textdown {
+    color: #202020;
+    font-family: "Yu Gothic";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%; 
+    letter-spacing: 0.24px;
+}
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-top: -150px;
+    margin-bottom: -150px;
+  }
+  
+  .video-container iframe {
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+  .bs1 {
+    color: #532762;
+    font-family: "Yu Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%; /* 32.4px */
+    letter-spacing: 0.48px;
+    margin: 0px 30px;
+  }
+  .bs2 {
+    color: #0085FF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 135%; /* 13.5px */
+    letter-spacing: 0.2px;
+    margin: 0px 30px;
+  }
+  .bs3 {
+    color: #202020;
+    font-family: "Yu Gothic";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%; /* 16.2px */
+    letter-spacing: 0.24px;
+    width: 276px;
+    margin: 64px 30px 0px 30px;
+  }
+  .container-bs {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  .group-cont-o {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+  .rounded-pic {
+    border-radius: 32px;
+  }
+  .container-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 16.54%;
+    margin-right: 16.54%;
+    margin-bottom: 100px;
+  }
+  .column {
+    flex: 1;
+    margin: 10px;
+    max-width: 22%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .column p {
+    margin: 10px 0;
+}
+.bs11 {
+    color: #532762;
+    font-family: "Yu Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%; /* 32.4px */
+    letter-spacing: 0.48px;
+    margin: 0px 30px;
+    height: 65px;
+  }
+  .bs31 {
+    color: #202020;
+    font-family: "Yu Gothic";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%; /* 16.2px */
+    letter-spacing: 0.24px;
+    width: 276px;
+    margin: 64px 30px 0px 30px;
+  }
+  .group-o {
+    margin-bottom: 100px;
+  }
